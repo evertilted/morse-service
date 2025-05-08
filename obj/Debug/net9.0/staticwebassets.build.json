@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ms44bBSa1raNlYnXDRV21cvJ4qF6MkIk1z1y3B5RAFs=",
+  "Source": "morse-service",
+  "BasePath": "_content/morse-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
