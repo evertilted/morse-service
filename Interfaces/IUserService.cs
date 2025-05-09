@@ -4,6 +4,6 @@ namespace morse_service.Interfaces.Services
 {
     public interface IUserService
     {
-        List<FriendDTO> GetFriends(int userId);
+        object[] FindUserByLogin(int senderUserId, string login);
     }
 }

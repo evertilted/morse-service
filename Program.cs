@@ -73,6 +73,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("https://localhost:3000")
               .AllowAnyHeader()
               .AllowAnyMethod()
+              .AllowCredentials()
               .SetPreflightMaxAge(TimeSpan.FromMinutes(10));
     });
 });
@@ -84,10 +85,14 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+app.UseRouting();
 app.UseCors("web-client");
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapHub<CallHub>("/api/Call");
+    });
 
 app.MapControllers();
 

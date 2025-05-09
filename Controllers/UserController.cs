@@ -18,12 +18,5 @@ namespace morse_service.Controllers
             _logger = logger;
             _userService = userService;
         }
-
-        [Authorize]
-        [HttpGet(Name = "Friends")]
-        public IActionResult Friends([FromHeader]int userId)
-        { 
-            return Ok(_userService.GetFriends(userId));
-        }
     }
 }

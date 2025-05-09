@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using morse_service.Database;
 using morse_service.Database.Models;
+using morse_service.DTO;
 using morse_service.Hubs.DTO;
 using morse_service.Interfaces.Services;
 
@@ -16,33 +17,23 @@ namespace morse_service.ServiceImplementations
             _contextFactory = contextFactory;
         }
 
-        [Authorize]
-        public List<FriendDTO> GetFriends(int userId)
+        public object[] FindUserByLogin(int senderUserId, string login)
         {
             using (var context = _contextFactory.CreateDbContext())
             {
-                List<FriendDTO> friends = new List<FriendDTO>();
+                List<UserDTO> result = new List<UserDTO>();
 
-                // all ids that are not the given user
-                var friendIds = context.UserFriends
-                    .Where(relation => relation.UserIDA == userId || relation.UserIDB == userId)
-                    .Select(relation => relation.UserIDA == userId ? relation.UserIDB : relation.UserIDA)
-                    .ToList();
-
-                foreach (var friendId in friendIds)
+                var users = context.Users.Where(user => user.Login.Contains(login) && user.Id != senderUserId);
+                foreach (var user in users)
                 {
-                    var user = context.Users.FirstOrDefault(user => user.Id == friendId);
-                    if (user != null)
+                    result.Add(new UserDTO
                     {
-                        friends.Add(new FriendDTO 
-                        {
-                            Id = user.Id,
-                            Login = user.Login,
-                            DisplayName = user.DisplayName,
-                        });
-                    }
+                        Id = user.Id,
+                        Login = user.Login,
+                        DisplayName = user.DisplayName,
+                    });
                 }
-                return friends;
+                return result.ToArray();
             }
         }
     }
