@@ -8,6 +8,7 @@ namespace morse_service.Database
         public MSDBContext(DbContextOptions<MSDBContext> options) : base(options)
         { }
 
+        public DbSet<UserModel> Users { get; set; }
         public DbSet<UserFriendsModel> UserFriends { get; set; }
     }
 }

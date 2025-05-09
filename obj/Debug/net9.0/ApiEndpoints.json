@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ContainingType": "morse_service.Controllers.UserController",
+    "Method": "Friends",
+    "RelativePath": "api/User/Friends",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Friends"
+  }
+]

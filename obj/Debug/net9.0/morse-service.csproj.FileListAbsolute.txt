@@ -56,3 +56,4 @@ C:\Users\trigg\source\repos\morse-service\bin\Debug\net9.0\Npgsql.dll
 C:\Users\trigg\source\repos\morse-service\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\trigg\source\repos\morse-service\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
 C:\Users\trigg\source\repos\morse-service\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\trigg\source\repos\morse-service\obj\Debug\net9.0\morse-service.sourcelink.json

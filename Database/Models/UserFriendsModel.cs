@@ -1,17 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace morse_service.Database.Models
 {
     [Table("user_friends")]
     public class UserFriendsModel
     {
+        [Key]
         [Column("relation_id")]
-        int RelationId { get; set; }
+        public int RelationId { get; set; }
 
         [Column("user_id_a")]
-        int UserIDA { get; set; }
+        public int UserIDA { get; set; }
 
         [Column("user_id_b")]
-        int UserIDB { get; set; }
+        public int UserIDB { get; set; }
     }
 }
