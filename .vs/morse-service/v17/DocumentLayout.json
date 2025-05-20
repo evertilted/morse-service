@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:hubs\\callhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\serviceimplementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:serviceimplementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\hubs\\interfaces\\icallhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:hubs\\interfaces\\icallhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\serviceimplementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:serviceimplementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\database\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:database\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|c:\\users\\trigg\\source\\repos\\morse-service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF73B190-1011-49D4-9856-F2C93E81B360}|morse-service.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +42,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwF0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T10:48:06.201Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "Hubs\\CallHub.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\Hubs\\CallHub.cs",
               "RelativeToolTip": "Hubs\\CallHub.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAkwKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T06:40:59.434Z",
               "IsPinned": true,
@@ -70,69 +69,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ICallHubClient.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\Hubs\\Interfaces\\ICallHubClient.cs",
               "RelativeDocumentMoniker": "Hubs\\Interfaces\\ICallHubClient.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\Hubs\\Interfaces\\ICallHubClient.cs",
               "RelativeToolTip": "Hubs\\Interfaces\\ICallHubClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T06:49:30.609Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\ServiceImplementations\\UserService.cs",
               "RelativeDocumentMoniker": "ServiceImplementations\\UserService.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\ServiceImplementations\\UserService.cs",
               "RelativeToolTip": "ServiceImplementations\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBkAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvygAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:17:06.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:17:06.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:16:51.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:16:51.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\Database\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Database\\Models\\UserModel.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\Database\\Models\\UserModel.cs",
               "RelativeToolTip": "Database\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:10:43.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:10:43.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\trigg\\source\\repos\\morse-service\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
               "ToolTip": "C:\\Users\\trigg\\source\\repos\\morse-service\\DTO\\UserDTO.cs",
               "RelativeToolTip": "DTO\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:10:42.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:10:42.352Z"
             }
           ]
         }

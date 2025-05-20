@@ -17,7 +17,7 @@ namespace morse_service.ServiceImplementations
             _contextFactory = contextFactory;
         }
 
-        public object[] FindUserByLogin(int senderUserId, string login)
+        public object[] FindUserByLoginExcludingRequestSource(int senderUserId, string login)
         {
             using (var context = _contextFactory.CreateDbContext())
             {
@@ -34,6 +34,24 @@ namespace morse_service.ServiceImplementations
                     });
                 }
                 return result.ToArray();
+            }
+        }
+
+        public UserDTO? FindUserByLogin(string login)
+        {
+            using (var context = _contextFactory.CreateDbContext())
+            {
+                var result = context.Users.FirstOrDefault(user => user.Login == login);
+                if (result != null)
+                {
+                    return new UserDTO
+                    { 
+                        Id = result.Id,
+                        Login = result.Login,
+                        DisplayName = result.DisplayName
+                    };
+                }
+                return null;
             }
         }
     }

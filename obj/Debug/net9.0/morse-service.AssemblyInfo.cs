@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("morse-service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+398ffd0f39a597eb09ce29e66f42c1b4ab81f254")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a2cb88dac157182d087fcac53a3e529f88fee70")]
 [assembly: System.Reflection.AssemblyProductAttribute("morse-service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("morse-service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

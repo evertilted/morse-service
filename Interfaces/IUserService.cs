@@ -4,6 +4,8 @@ namespace morse_service.Interfaces.Services
 {
     public interface IUserService
     {
-        object[] FindUserByLogin(int senderUserId, string login);
+        object[] FindUserByLoginExcludingRequestSource(int senderUserId, string login);
+
+        UserDTO? FindUserByLogin(string login);
     }
 }
